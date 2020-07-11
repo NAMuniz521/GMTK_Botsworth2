@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358582298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.12, y: 2.46, z: -10}
+  m_LocalPosition: {x: -5.07, y: 2.46, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -218,6 +218,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookAtTarget: {fileID: 1332806463}
+  camTransform: {fileID: 0}
+  camPosition: {x: 0, y: 0, z: 0}
+  cameraOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &416772760
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,7 +3255,6 @@ MonoBehaviour:
   playerRB: {fileID: 0}
   speed: 0.531
   jumpForce: 8.31
-  raycastDist: 4.79
   isOnGround: 0
 --- !u!50 &1332806465
 Rigidbody2D:

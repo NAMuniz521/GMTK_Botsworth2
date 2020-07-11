@@ -15,8 +15,6 @@ public class CharacterController : MonoBehaviour
     public float speed;
     [Range(0, 20)]
     public float jumpForce;
-    [Range(0, 10)]
-    public float raycastDist; //for isOnGround
     public bool isOnGround;
 
     //Movement
