@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public Transform shootPoint;
     public GameObject bullet;
     public GameObject player;
+    public AudioSource enemyAudio;
 
     [Header("Properties")]
     public float fireInterval;
@@ -25,6 +26,7 @@ public class Enemy : MonoBehaviour
     {
         tempTime = Time.time + fireInterval;
         currentPatrolPoint = patrolPointA;
+        enemyAudio = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -68,10 +70,25 @@ public class Enemy : MonoBehaviour
     {
         //Debug.Log("pew pew");
         //RaycastHit2D hitInfo = Physics2D.Raycast(shootPoint.position, -1 * shootPoint.right);
-
+        int sound;
+        sound = Random.Range(1, 5);
+        switch (sound)
+        {
+            case 1: enemyAudio.clip = AudioManager.singleton.shot1;
+                break;
+            case 2: enemyAudio.clip = AudioManager.singleton.shot2;
+                break;
+            case 3: enemyAudio.clip = AudioManager.singleton.shot3;
+                break;
+            default: enemyAudio.clip = AudioManager.singleton.shot4;
+                break;
+        }
+            
         GameObject projectile = Instantiate(bullet);
         projectile.GetComponent<Projectile>().shootPoint = shootPoint;
         projectile.transform.localPosition = shootPoint.transform.position;
+        enemyAudio.Play();
+
 
         //if (hitInfo)
         //{
@@ -81,7 +98,8 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-        // TODO: do any death effects or sound effects here
+        enemyAudio.clip = AudioManager.singleton.pop;
+        enemyAudio.Play();
         Destroy(gameObject);
     }
 }

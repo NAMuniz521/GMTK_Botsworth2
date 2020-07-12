@@ -14,8 +14,11 @@ public class CharacterController : MonoBehaviour
     [SerializeField] Animator playerAnim; //populated in start()
     [SerializeField] SpriteRenderer playerRenderer; //populated in start()
     [SerializeField] GameObject shield;
+
     public GameObject keyPrefab;
     public GameObject keyHolder;
+    [SerializeField] AudioSource playerAudio;
+
 
     [Header("Input")]
     [SerializeField] PlayerInputAction inputActions;
@@ -58,6 +61,7 @@ public class CharacterController : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
         playerRenderer = GetComponent<SpriteRenderer>();
+        playerAudio = GetComponent<AudioSource>();
 
         energy = maxEnergy;
 
@@ -118,7 +122,7 @@ public class CharacterController : MonoBehaviour
 
         Vector3 moveDir = new Vector3(moveInput.x * speed, 0, 0);
         playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x));
-        if (!isDead || !isHacked)
+        if (!isDead && !isHacked)
         {
             playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f);
         }
@@ -188,8 +192,10 @@ public class CharacterController : MonoBehaviour
     {
         if (energy > 0)
         {
+            playerAudio.clip = AudioManager.singleton.shield;
             //Debug.Log("Shield Active");
             shield.SetActive(true);
+            playerAudio.Play();
             StartCoroutine(ShieldDecay());
             isShieldActive = true;
         }
@@ -228,6 +234,8 @@ public class CharacterController : MonoBehaviour
         if (isOnGround) //set up isOnGround bool
         {
             playerRB.AddForce(new Vector2(0, jumpForce * 10f));
+            playerAudio.clip = AudioManager.singleton.jump;
+            playerAudio.Play();
         }
     }
 
@@ -261,6 +269,8 @@ public class CharacterController : MonoBehaviour
     {
         isDead = true;
         playerAnim.SetBool("Dead", true);
+        playerAudio.clip = AudioManager.singleton.death;
+        playerAudio.Play();
         StopAllCoroutines();
         StartCoroutine(Respawn());
     }
@@ -298,6 +308,14 @@ public class CharacterController : MonoBehaviour
             {
                 energy += energyGainedPerSecond;
             }
+
+            if(isOnGround == false)
+            {
+                yield return new WaitForSeconds(1);
+                isOnGround = true;
+                playerAnim.SetBool("Jumping", false);
+            }
+
             yield return new WaitForSeconds(1);
         }
     }

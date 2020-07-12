@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 690432252634811217}
   - component: {fileID: 690432252634811216}
   - component: {fileID: 690432252634811219}
+  - component: {fileID: 686957457523494372}
   m_Layer: 0
   m_Name: Botsworth
   m_TagString: Untagged
@@ -291,6 +292,110 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 3a7bfedf-296e-4eb2-888d-3028358152f9
     m_ActionName: Player/DeactivateShield[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 04c19b6f-f375-45a1-a351-384302397a0c
+    m_ActionName: Player/A[/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 812e8757-fc37-42c6-b2d0-dd747af10bfa
+    m_ActionName: Player/B[/Keyboard/b]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6adb469c-37fa-443b-b047-2479398bcaf3
+    m_ActionName: Player/C[/Keyboard/c]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 58f44f4c-676a-4dd7-a89f-fa5a261c6333
+    m_ActionName: Player/D[/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 47261c4a-ba02-4365-8005-296f13900ff7
+    m_ActionName: Player/E[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 914aecdf-418c-4238-bbb2-82a1303d8180
+    m_ActionName: Player/F[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bf85ced4-e9fa-4c08-8868-18c45272d9d3
+    m_ActionName: Player/G[/Keyboard/g]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 84c1fd04-f086-4623-a32f-7e8e30bc653e
+    m_ActionName: Player/H[/Keyboard/h]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 68fe791d-4f6a-4a18-9ab8-ffbd69772f26
+    m_ActionName: Player/I[/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: db8b5e14-994d-49a0-a012-445d15585859
+    m_ActionName: Player/J[/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 433d2449-f0df-41d2-8e0d-4e466b3471b1
+    m_ActionName: Player/K[/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 31cb7886-fd12-42ac-9e04-027bf37d0ba1
+    m_ActionName: Player/L[/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ee42786b-40aa-482a-abff-f2bb7e60d80e
+    m_ActionName: Player/M[/Keyboard/m]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 678cb370-1d56-4f62-b1f8-e5d94560ea49
+    m_ActionName: Player/N[/Keyboard/n]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ce946ddc-7d30-4b93-81d5-fadd3686019b
+    m_ActionName: Player/O[/Keyboard/o]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5505e5b1-3369-4192-935d-5c07941bc919
+    m_ActionName: Player/P[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aaf17c76-3fb2-4370-8dea-33c4186c131d
+    m_ActionName: Player/Q[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6ec091ae-4523-45f1-8782-e502e72607c1
+    m_ActionName: Player/R[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ac5af4c0-1dac-4eec-b179-143f29682bd0
+    m_ActionName: Player/S[/Keyboard/s]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 015d2bd1-d19c-436e-b8cb-89d1f1e415c2
+    m_ActionName: Player/T[/Keyboard/t]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6283df22-863e-4ea6-b6d8-c6ead802d673
+    m_ActionName: Player/U[/Keyboard/u]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2d1d3785-a924-47ec-86a2-8429a21c894f
+    m_ActionName: Player/V[/Keyboard/v]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4d891b08-d411-4ef4-950c-dd546f800c33
+    m_ActionName: Player/W[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7c4e73c4-e36a-48f6-96f3-88e386fc3d4d
+    m_ActionName: Player/X[/Keyboard/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 497a3ded-1461-44bf-a56b-47e0b3d503e7
+    m_ActionName: Player/Y[/Keyboard/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fe201382-efd0-469a-b737-b547bd76dc8e
+    m_ActionName: Player/Z[/Keyboard/z]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -308,22 +413,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b74cc1a3bd8114bb4954179007b753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
-  playerRB: {fileID: 0}
-  playerAnim: {fileID: 0}
-  playerRenderer: {fileID: 0}
+  playerTransform: {fileID: 690432252634811182}
+  playerRB: {fileID: 690432252634811216}
+  playerAnim: {fileID: 690432252634811180}
+  playerRenderer: {fileID: 690432252634811183}
   shield: {fileID: 690432251441498317}
-  spawnPoint: {fileID: 0}
-  keyPrefab: {fileID: 0}
+  keyPrefab: {fileID: 1193406991672953270, guid: ed2af1b5ca9dedf49a93a613d61bdf5f,
+    type: 3}
+  keyHolder: {fileID: 0}
+  playerAudio: {fileID: 0}
   speed: 0.531
-  jumpForce: 20
+  jumpForce: 30.8
   maxEnergy: 100
   energyUsedPerSecond: 5
   energyGainedPerSecond: 1
   minHackTime: 5
   maxHackTime: 20
-  keysForHackingMinigame: 080000007f000000090000000d0000002000000011010000130100001201000014010000300000003100000032000000330000003400000035000000360000003700000038000000390000002c0000002d0000003b0000003d0000002e0000005c0000005d0000005b0000002f0000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a000000
+  keysForHackingMinigame: 6100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a000000
   amountKeysForHackingMinigame: 5
+  keyObjectList: []
+  isHacked: 0
   energy: 0
   isDead: 0
   isShieldActive: 0
@@ -374,3 +483,100 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.69, y: 0.64}
   m_EdgeRadius: 0
+--- !u!82 &686957457523494372
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690432252634811178}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -1216820901783159838, guid: e0e5302b058a69e4d870c71875a591eb,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
