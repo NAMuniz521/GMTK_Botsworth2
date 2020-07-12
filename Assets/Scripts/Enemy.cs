@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        if (PatrolCoroutine == null)
+        if (PatrolCoroutine == null && currentPatrolPoint != null)
         {
             PatrolCoroutine = StartCoroutine(Patrol(transform.position, currentPatrolPoint.transform.position, timeToPatrol));
         }

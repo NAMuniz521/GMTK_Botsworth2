@@ -28,6 +28,11 @@ public class CharacterController : MonoBehaviour
     [Range(0, 10)]
     public float energyGainedPerSecond;
 
+    public float minHackTime = 5f;
+    public float maxHackTime = 20f;
+    Coroutine hackTimer;
+    Coroutine hackCoroutine;
+
 
     private bool isOnGround;
     private Vector2 moveInput;
@@ -55,6 +60,11 @@ public class CharacterController : MonoBehaviour
         inputActions.Player.Jump.performed += ctx => Jump();
 
         StartCoroutine(EnergyRecharge());
+    }
+
+    private void Update()
+    {
+
     }
 
     private void FixedUpdate()
