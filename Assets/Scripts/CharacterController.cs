@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -37,6 +39,7 @@ public class CharacterController : MonoBehaviour
     public List<KeyCode> keysForHackingMinigame = new List<KeyCode>();
     public int amountKeysForHackingMinigame;
     public List<GameObject> keyObjectList = new List<GameObject>();
+    public bool isHacked = false;
 
 
     private bool isOnGround;
@@ -45,7 +48,7 @@ public class CharacterController : MonoBehaviour
     [HideInInspector] public float energy;
     [HideInInspector] public bool isDead = false;
     [HideInInspector] public bool isShieldActive = false;
-
+    string currentPressedButton;
 
 
     // Start is called before the first frame update
@@ -63,6 +66,33 @@ public class CharacterController : MonoBehaviour
         inputActions.Player.ActivateShield.started += ctx => OnMouseClick();
         inputActions.Player.ActivateShield.canceled += ctx => OnMouseReleased();
         inputActions.Player.Jump.performed += ctx => Jump();
+
+        inputActions.Player.A.performed += ctx => ButtonPressed("A");
+        inputActions.Player.B.performed += ctx => ButtonPressed("B");
+        inputActions.Player.C.performed += ctx => ButtonPressed("C");
+        inputActions.Player.D.performed += ctx => ButtonPressed("D");
+        inputActions.Player.E.performed += ctx => ButtonPressed("E");
+        inputActions.Player.F.performed += ctx => ButtonPressed("F");
+        inputActions.Player.G.performed += ctx => ButtonPressed("G");
+        inputActions.Player.H.performed += ctx => ButtonPressed("H");
+        inputActions.Player.I.performed += ctx => ButtonPressed("I");
+        inputActions.Player.J.performed += ctx => ButtonPressed("J");
+        inputActions.Player.K.performed += ctx => ButtonPressed("K");
+        inputActions.Player.L.performed += ctx => ButtonPressed("L");
+        inputActions.Player.M.performed += ctx => ButtonPressed("M");
+        inputActions.Player.N.performed += ctx => ButtonPressed("N");
+        inputActions.Player.O.performed += ctx => ButtonPressed("O");
+        inputActions.Player.P.performed += ctx => ButtonPressed("P");
+        inputActions.Player.Q.performed += ctx => ButtonPressed("Q");
+        inputActions.Player.R.performed += ctx => ButtonPressed("R");
+        inputActions.Player.S.performed += ctx => ButtonPressed("S");
+        inputActions.Player.T.performed += ctx => ButtonPressed("T");
+        inputActions.Player.U.performed += ctx => ButtonPressed("U");
+        inputActions.Player.V.performed += ctx => ButtonPressed("V");
+        inputActions.Player.W.performed += ctx => ButtonPressed("W");
+        inputActions.Player.X.performed += ctx => ButtonPressed("X");
+        inputActions.Player.Y.performed += ctx => ButtonPressed("Y");
+        inputActions.Player.Z.performed += ctx => ButtonPressed("Z");
 
         StartCoroutine(EnergyRecharge());
     }
@@ -88,19 +118,24 @@ public class CharacterController : MonoBehaviour
 
         Vector3 moveDir = new Vector3(moveInput.x * speed, 0, 0);
         playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x));
-        if (!isDead)
+        if (!isDead || !isHacked)
         {
             playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f);
         }
 
     }
 
+    public void ButtonPressed(string button)
+    {
+        currentPressedButton = button;
+    }
+
     IEnumerator HackTimer(float secondsToStartHack)
     {
+        Debug.Log("Hack Timer Start");
         float startTime = Time.time;
         while (Time.time < startTime + secondsToStartHack)
         {
-            //Debug.Log("Waiting for Hack: " + (startTime + secondsToStartHack - Time.time) + " seconds remain");
             // TODO: at 5 seconds remaining start beeping botsworth red
             yield return null;
         }
@@ -110,11 +145,20 @@ public class CharacterController : MonoBehaviour
             hackCoroutine = StartCoroutine(HackCoroutine());
         }
 
+        while (hackCoroutine != null)
+        {
+            yield return null;
+        }
+
         hackTimer = null;
     }
 
     IEnumerator HackCoroutine()
     {
+        Debug.Log("Hack Coroutine");
+        isHacked = true;
+        // TODO: set Botsworth red
+
         List<KeyCode> tempKeyList = new List<KeyCode>();
         for (int i = 0; i < amountKeysForHackingMinigame; i++)
         {
@@ -125,16 +169,18 @@ public class CharacterController : MonoBehaviour
             keyObjectList.Add(keyObject);
         }
 
+        currentPressedButton = "";
 
         for (int i = 0; i < tempKeyList.Count; i++)
         {
-            while (!Input.GetKey(tempKeyList[i]))
+            while (currentPressedButton != tempKeyList[i].ToString())
             {
                 yield return null;
             }
             Destroy(keyObjectList[i]);
         }
 
+        isHacked = false;
         hackCoroutine = null;
     }
 
