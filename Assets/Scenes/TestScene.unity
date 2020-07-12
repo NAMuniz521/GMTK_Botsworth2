@@ -3566,7 +3566,7 @@ PrefabInstance:
     - target: {fileID: 6688037770043297256, guid: 7f7233cc764980a46ad1a5be04147c1a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.0800781
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6688037770043297256, guid: 7f7233cc764980a46ad1a5be04147c1a,
         type: 3}
@@ -3618,6 +3618,16 @@ PrefabInstance:
       propertyPath: patrolPointB
       value: 
       objectReference: {fileID: 1755009900}
+    - target: {fileID: 6688037770043297262, guid: 7f7233cc764980a46ad1a5be04147c1a,
+        type: 3}
+      propertyPath: timeToPatrol
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688037770043297262, guid: 7f7233cc764980a46ad1a5be04147c1a,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1332806459}
     - target: {fileID: 6688037770043297263, guid: 7f7233cc764980a46ad1a5be04147c1a,
         type: 3}
       propertyPath: m_Name

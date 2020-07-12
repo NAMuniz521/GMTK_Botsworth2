@@ -9,10 +9,14 @@ public class Projectile : MonoBehaviour
 
     [Header("Properties")]
     public float speed = 10f;
+    [HideInInspector] public Transform shootPoint;
     
     void Start()
     {
-        rb.velocity = -1 * transform.right * speed;
+        if (shootPoint != null)
+        {
+            rb.velocity = -1 * shootPoint.right * speed; 
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
