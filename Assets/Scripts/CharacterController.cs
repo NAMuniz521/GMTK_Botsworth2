@@ -11,6 +11,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] Animator playerAnim; //populated in start()
     [SerializeField] SpriteRenderer playerRenderer; //populated in start()
     [SerializeField] GameObject shield;
+    [SerializeField] AudioSource playerAudio;
     public GameObject spawnPoint;
 
     [Header("Input")]
@@ -45,6 +46,7 @@ public class CharacterController : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
         playerRenderer = GetComponent<SpriteRenderer>();
+        playerAudio = GetComponent<AudioSource>();
 
         energy = maxEnergy;
         
@@ -121,6 +123,8 @@ public class CharacterController : MonoBehaviour
         if (isOnGround) //set up isOnGround bool
         {
             playerRB.AddForce(new Vector2(0, jumpForce * 10f));
+            playerAudio.clip = AudioManager.singleton.jump;
+            playerAudio.Play();
         }
     }
 
@@ -154,6 +158,8 @@ public class CharacterController : MonoBehaviour
     {
         isDead = true;
         playerAnim.SetBool("Dead", true);
+        playerAudio.clip = AudioManager.singleton.death;
+        playerAudio.Play();
         StopAllCoroutines();
         StartCoroutine(Respawn());
     }
