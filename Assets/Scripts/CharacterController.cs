@@ -191,6 +191,14 @@ public class CharacterController : MonoBehaviour
             {
                 energy += energyGainedPerSecond;
             }
+
+            if(isOnGround == false)
+            {
+                yield return new WaitForSeconds(1);
+                isOnGround = true;
+                playerAnim.SetBool("Jumping", false);
+            }
+
             yield return new WaitForSeconds(1);
         }
     }
