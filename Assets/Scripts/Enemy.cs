@@ -11,19 +11,22 @@ public class Enemy : MonoBehaviour
     [Header("Properties")]
     public float fireInterval;
     public float speed;
-    public Vector2 patrolPointA;
-    public Vector2 patrolPointB;
+    public GameObject patrolPointA;
+    public GameObject patrolPointB;
+
+    GameObject currentPatrolPoint;
 
     float tempTime;
 
     private void Start()
     {
         tempTime = Time.time + fireInterval;
+        currentPatrolPoint = patrolPointA;
     }
 
     private void Update()
     {
-        // TODO: make it move on a path
+        // TODO: Move from patrol point A to B
 
         if (tempTime < Time.time)
         {
