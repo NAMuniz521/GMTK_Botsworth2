@@ -12,12 +12,14 @@ public class CharacterController : MonoBehaviour
     [SerializeField] SpriteRenderer playerRenderer; //populated in start()
     [SerializeField] GameObject shield;
     public GameObject spawnPoint;
+    public GameObject keyPrefab;
+    public GameObject mainCanvas;
 
     [Header("Input")]
     [SerializeField] PlayerInputAction inputActions;
 
     [Header("Player Stats")]
-    [Range(0,1)]
+    [Range(0, 1)]
     public float speed;
     [Range(0, 20)]
     public float jumpForce;
@@ -32,6 +34,8 @@ public class CharacterController : MonoBehaviour
     public float maxHackTime = 20f;
     Coroutine hackTimer;
     Coroutine hackCoroutine;
+    public List<KeyCode> keysForHackingMinigame = new List<KeyCode>();
+    public int amountKeysForHackingMinigame;
 
 
     private bool isOnGround;
@@ -52,7 +56,7 @@ public class CharacterController : MonoBehaviour
         playerRenderer = GetComponent<SpriteRenderer>();
 
         energy = maxEnergy;
-        
+
         inputActions = new PlayerInputAction();
         inputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         inputActions.Player.ActivateShield.started += ctx => OnMouseClick();
@@ -64,32 +68,59 @@ public class CharacterController : MonoBehaviour
 
     private void Update()
     {
-
+        if (hackTimer == null)
+        {
+            hackTimer = StartCoroutine(HackTimer(Random.Range(minHackTime, maxHackTime)));
+        }
     }
 
     private void FixedUpdate()
     {
-        if(moveInput.x < 0)
+        if (moveInput.x < 0)
         {
             playerRenderer.flipX = false;
         }
-        else if(moveInput.x > 0)
+        else if (moveInput.x > 0)
         {
             playerRenderer.flipX = true;
         }
 
         Vector3 moveDir = new Vector3(moveInput.x * speed, 0, 0);
-        playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x)); 
+        playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x));
         if (!isDead)
         {
-            playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f); 
+            playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f);
         }
-        
+
+    }
+
+    IEnumerator HackTimer(float secondsToStartHack)
+    {
+        float startTime = Time.time;
+        while (Time.time < startTime + secondsToStartHack)
+        {
+            //Debug.Log("Waiting for Hack: " + (startTime + secondsToStartHack - Time.time) + " seconds remain");
+            // TODO: at 5 seconds remaining start beeping botsworth red
+            yield return null;
+        }
+
+        if (hackCoroutine == null)
+        {
+            hackCoroutine = StartCoroutine(HackCoroutine());
+        }
+
+        hackTimer = null;
+    }
+
+    IEnumerator HackCoroutine()
+    {
+
+        yield return null;
     }
 
     public void OnMouseClick()
     {
-        if(energy > 0)
+        if (energy > 0)
         {
             //Debug.Log("Shield Active");
             shield.SetActive(true);
@@ -137,10 +168,10 @@ public class CharacterController : MonoBehaviour
     private bool CollisionIsWithGround(Collision2D collision)
     {
         bool is_with_ground = false;
-        foreach(ContactPoint2D c in collision.contacts)
+        foreach (ContactPoint2D c in collision.contacts)
         {
             Vector2 collision_direction_vector = c.point - playerRB.position;
-            if(collision_direction_vector.y < 0)
+            if (collision_direction_vector.y < 0)
             {
                 //collison happens below character
                 is_with_ground = true;
@@ -178,7 +209,7 @@ public class CharacterController : MonoBehaviour
     {
         while (shield.activeInHierarchy == true)
         {
-            if(energy > 0)
+            if (energy > 0)
             {
                 energy -= energyUsedPerSecond;
             }
@@ -197,7 +228,7 @@ public class CharacterController : MonoBehaviour
     {
         while (true)
         {
-            if(energy < maxEnergy && shield.activeInHierarchy == false)
+            if (energy < maxEnergy && shield.activeInHierarchy == false)
             {
                 energy += energyGainedPerSecond;
             }
