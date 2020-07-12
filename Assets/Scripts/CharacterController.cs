@@ -9,6 +9,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] Rigidbody2D playerRB;
     [SerializeField] Animator playerAnim;
     [SerializeField] SpriteRenderer playerRenderer;
+    [SerializeField] GameObject shield;
 
     [Header("Input")]
     [SerializeField] PlayerInputAction inputActions;
@@ -20,7 +21,8 @@ public class CharacterController : MonoBehaviour
     public bool isOnGround;
 
     //Movement
-    public Vector2 moveInput;
+    private Vector2 moveInput;
+    private bool mouseClicked;
 
 
 
@@ -31,9 +33,14 @@ public class CharacterController : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
         playerRenderer = GetComponent<SpriteRenderer>();
+        
 
         inputActions = new PlayerInputAction();
         inputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
+        inputActions.Player.ActivateShield.started += ctx => OnMouseClick();
+        inputActions.Player.ActivateShield.canceled += ctx => OnMouseReleased();
+        inputActions.Player.Jump.performed += ctx => Jump();
+        
         
     }
 
@@ -52,6 +59,18 @@ public class CharacterController : MonoBehaviour
         playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x));
         playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f);
         
+    }
+
+    public void OnMouseClick()
+    {
+        Debug.Log("Shield Active");
+        shield.SetActive(true);
+    }
+
+    public void OnMouseReleased()
+    {
+        Debug.Log("Shield Deactive");
+        shield.SetActive(false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
