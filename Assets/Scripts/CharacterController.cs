@@ -18,11 +18,18 @@ public class CharacterController : MonoBehaviour
     public float speed;
     [Range(0, 20)]
     public float jumpForce;
+    [Range(0, 200)]
+    public float maxEnergy;
+    [Range(0, 10)]
+    public float energyUsedPerSecond;
+    [Range(0, 10)]
+    public float energyGainedPerSecond;
     public bool isOnGround;
 
     //Movement
     private Vector2 moveInput;
     private bool mouseClicked;
+    public float energy;
 
 
 
@@ -33,15 +40,16 @@ public class CharacterController : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
         playerRenderer = GetComponent<SpriteRenderer>();
-        
 
+        energy = maxEnergy;
+        
         inputActions = new PlayerInputAction();
         inputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         inputActions.Player.ActivateShield.started += ctx => OnMouseClick();
         inputActions.Player.ActivateShield.canceled += ctx => OnMouseReleased();
         inputActions.Player.Jump.performed += ctx => Jump();
-        
-        
+
+        StartCoroutine(EnergyRecharge());
     }
 
     private void FixedUpdate()
@@ -63,14 +71,19 @@ public class CharacterController : MonoBehaviour
 
     public void OnMouseClick()
     {
-        Debug.Log("Shield Active");
-        shield.SetActive(true);
+        if(energy > 0)
+        {
+            Debug.Log("Shield Active");
+            shield.SetActive(true);
+            StartCoroutine(ShieldDecay());
+        }
     }
 
     public void OnMouseReleased()
     {
         Debug.Log("Shield Deactive");
         shield.SetActive(false);
+        StopCoroutine(ShieldDecay());
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -125,5 +138,35 @@ public class CharacterController : MonoBehaviour
     private void OnDisable()
     {
         inputActions.Disable();
+    }
+
+    public IEnumerator ShieldDecay()
+    {
+        while (shield.activeInHierarchy == true)
+        {
+            if(energy > 0)
+            {
+                energy -= energyUsedPerSecond;
+            }
+            else
+            {
+                shield.SetActive(false);
+                StopCoroutine(ShieldDecay());
+            }
+
+            yield return new WaitForSeconds(1);
+        }
+    }
+
+    public IEnumerator EnergyRecharge()
+    {
+        while (true)
+        {
+            if(energy < maxEnergy && shield.activeInHierarchy == false)
+            {
+                energy += energyGainedPerSecond;
+            }
+            yield return new WaitForSeconds(1);
+        }
     }
 }
