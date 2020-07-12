@@ -7,6 +7,8 @@ public class CharacterController : MonoBehaviour
     [Header("References")]
     [SerializeField] Transform playerTransform;
     [SerializeField] Rigidbody2D playerRB;
+    [SerializeField] Animator playerAnim;
+    [SerializeField] SpriteRenderer playerRenderer;
 
     [Header("Input")]
     [SerializeField] PlayerInputAction inputActions;
@@ -18,7 +20,7 @@ public class CharacterController : MonoBehaviour
     public bool isOnGround;
 
     //Movement
-    Vector2 moveInput;
+    public Vector2 moveInput;
 
 
 
@@ -27,6 +29,8 @@ public class CharacterController : MonoBehaviour
     {
         playerTransform = GetComponent<Transform>();
         playerRB = GetComponent<Rigidbody2D>();
+        playerAnim = GetComponent<Animator>();
+        playerRenderer = GetComponent<SpriteRenderer>();
 
         inputActions = new PlayerInputAction();
         inputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
@@ -35,7 +39,17 @@ public class CharacterController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(moveInput.x < 0)
+        {
+            playerRenderer.flipX = false;
+        }
+        else if(moveInput.x > 0)
+        {
+            playerRenderer.flipX = true;
+        }
+
         Vector3 moveDir = new Vector3(moveInput.x * speed, 0, 0);
+        playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x));
         playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f);
         
     }
@@ -45,6 +59,7 @@ public class CharacterController : MonoBehaviour
         if (CollisionIsWithGround(collision))
         {
             isOnGround = true;
+            playerAnim.SetBool("Jumping", false);
         }
     }
 
@@ -53,6 +68,7 @@ public class CharacterController : MonoBehaviour
         if (!CollisionIsWithGround(collision))
         {
             isOnGround = false;
+            playerAnim.SetBool("Jumping", true);
         }
     }
 
