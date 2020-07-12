@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CharacterController : MonoBehaviour
 {
@@ -11,9 +12,8 @@ public class CharacterController : MonoBehaviour
     [SerializeField] Animator playerAnim; //populated in start()
     [SerializeField] SpriteRenderer playerRenderer; //populated in start()
     [SerializeField] GameObject shield;
-    public GameObject spawnPoint;
     public GameObject keyPrefab;
-    public GameObject mainCanvas;
+    public GameObject keyHolder;
 
     [Header("Input")]
     [SerializeField] PlayerInputAction inputActions;
@@ -36,6 +36,7 @@ public class CharacterController : MonoBehaviour
     Coroutine hackCoroutine;
     public List<KeyCode> keysForHackingMinigame = new List<KeyCode>();
     public int amountKeysForHackingMinigame;
+    public List<GameObject> keyObjectList = new List<GameObject>();
 
 
     private bool isOnGround;
@@ -114,8 +115,27 @@ public class CharacterController : MonoBehaviour
 
     IEnumerator HackCoroutine()
     {
+        List<KeyCode> tempKeyList = new List<KeyCode>();
+        for (int i = 0; i < amountKeysForHackingMinigame; i++)
+        {
+            KeyCode key = keysForHackingMinigame[Random.Range(0, keysForHackingMinigame.Count)];
+            tempKeyList.Add(key);
+            GameObject keyObject = Instantiate(keyPrefab, keyHolder.transform);
+            keyObject.GetComponentInChildren<Text>().text = key.ToString();
+            keyObjectList.Add(keyObject);
+        }
 
-        yield return null;
+
+        for (int i = 0; i < tempKeyList.Count; i++)
+        {
+            while (!Input.GetKey(tempKeyList[i]))
+            {
+                yield return null;
+            }
+            Destroy(keyObjectList[i]);
+        }
+
+        hackCoroutine = null;
     }
 
     public void OnMouseClick()
