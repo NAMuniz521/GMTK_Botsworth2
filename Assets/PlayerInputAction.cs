@@ -33,6 +33,22 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": ""NormalizeVector2"",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ActivateShield"",
+                    ""type"": ""Button"",
+                    ""id"": ""88459998-1dfa-4e20-a0ff-d40d685e53e6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": ""NormalizeVector2"",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""DeactivateShield"",
+                    ""type"": ""Button"",
+                    ""id"": ""3a7bfedf-296e-4eb2-888d-3028358152f9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": ""NormalizeVector2"",
+                    ""interactions"": ""Press(behavior=1)""
                 }
             ],
             ""bindings"": [
@@ -134,6 +150,28 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""46068204-449d-43a5-a45a-866ffe2d1a1e"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""ActivateShield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0c7a10d0-9872-4c1e-8364-14922eda98c7"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""DeactivateShield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -711,6 +749,8 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+        m_Player_ActivateShield = m_Player.FindAction("ActivateShield", throwIfNotFound: true);
+        m_Player_DeactivateShield = m_Player.FindAction("DeactivateShield", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -774,12 +814,16 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_ActivateShield;
+    private readonly InputAction m_Player_DeactivateShield;
     public struct PlayerActions
     {
         private @PlayerInputAction m_Wrapper;
         public PlayerActions(@PlayerInputAction wrapper) { m_Wrapper = wrapper; }
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @Move => m_Wrapper.m_Player_Move;
+        public InputAction @ActivateShield => m_Wrapper.m_Player_ActivateShield;
+        public InputAction @DeactivateShield => m_Wrapper.m_Player_DeactivateShield;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -795,6 +839,12 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 @Move.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
                 @Move.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
                 @Move.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                @ActivateShield.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActivateShield;
+                @ActivateShield.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActivateShield;
+                @ActivateShield.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActivateShield;
+                @DeactivateShield.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDeactivateShield;
+                @DeactivateShield.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDeactivateShield;
+                @DeactivateShield.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDeactivateShield;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -805,6 +855,12 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 @Move.started += instance.OnMove;
                 @Move.performed += instance.OnMove;
                 @Move.canceled += instance.OnMove;
+                @ActivateShield.started += instance.OnActivateShield;
+                @ActivateShield.performed += instance.OnActivateShield;
+                @ActivateShield.canceled += instance.OnActivateShield;
+                @DeactivateShield.started += instance.OnDeactivateShield;
+                @DeactivateShield.performed += instance.OnDeactivateShield;
+                @DeactivateShield.canceled += instance.OnDeactivateShield;
             }
         }
     }
@@ -963,6 +1019,8 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
     {
         void OnJump(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
+        void OnActivateShield(InputAction.CallbackContext context);
+        void OnDeactivateShield(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

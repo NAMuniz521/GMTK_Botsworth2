@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: d284c51aaa3451e4589b1fe2ea34cd1a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -388328607712019540
+    second: BotsworthWalk_0
+  - first:
+      213: -4349954089219364025
+    second: BotsworthWalk_1
+  - first:
+      213: 4000974695133497211
+    second: BotsworthWalk_2
+  - first:
+      213: -7464720913518812228
+    second: BotsworthWalk_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,7 +133,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BotsworthWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 69
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf33150316c9af0800000000000000
+      internalID: -388328607712019540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotsworthWalk_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 69
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b62da8dcbd1a3c0800000000000000
+      internalID: -4349954089219364025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotsworthWalk_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7742c28941568730800000000000000
+      internalID: 4000974695133497211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotsworthWalk_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3284201ebf76890800000000000000
+      internalID: -7464720913518812228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
