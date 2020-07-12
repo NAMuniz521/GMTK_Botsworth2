@@ -3531,6 +3531,8 @@ MonoBehaviour:
   maxEnergy: 100
   energyUsedPerSecond: 5
   energyGainedPerSecond: 1
+  minHackTime: 0
+  maxHackTime: 0
   energy: 0
   isDead: 0
   isShieldActive: 0

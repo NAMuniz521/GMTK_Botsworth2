@@ -20,7 +20,7 @@ public class CharacterController : MonoBehaviour
     [Header("Player Stats")]
     [Range(0,1)]
     public float speed;
-    [Range(0, 20)]
+    [Range(0, 50)]
     public float jumpForce;
     [Range(0, 200)]
     public float maxEnergy;
@@ -28,6 +28,11 @@ public class CharacterController : MonoBehaviour
     public float energyUsedPerSecond;
     [Range(0, 10)]
     public float energyGainedPerSecond;
+
+    public float minHackTime = 5f;
+    public float maxHackTime = 20f;
+    Coroutine hackTimer;
+    Coroutine hackCoroutine;
 
 
     private bool isOnGround;
@@ -57,6 +62,11 @@ public class CharacterController : MonoBehaviour
         inputActions.Player.Jump.performed += ctx => Jump();
 
         StartCoroutine(EnergyRecharge());
+    }
+
+    private void Update()
+    {
+
     }
 
     private void FixedUpdate()
