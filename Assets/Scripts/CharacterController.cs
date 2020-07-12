@@ -5,15 +5,16 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] Transform playerTransform;
-    [SerializeField] Rigidbody2D playerRB;
-    [SerializeField] Animator playerAnim;
-    [SerializeField] SpriteRenderer playerRenderer;
+    [SerializeField] Transform playerTransform; //populated in start()
+    [SerializeField] Rigidbody2D playerRB; //populated in start()
+    [SerializeField] Animator playerAnim; //populated in start()
+    [SerializeField] SpriteRenderer playerRenderer; //populated in start()
     [SerializeField] GameObject shield;
 
     [Header("Input")]
     [SerializeField] PlayerInputAction inputActions;
 
+    [Header("Player Stats")]
     [Range(0,1)]
     public float speed;
     [Range(0, 20)]
@@ -24,12 +25,13 @@ public class CharacterController : MonoBehaviour
     public float energyUsedPerSecond;
     [Range(0, 10)]
     public float energyGainedPerSecond;
-    public bool isOnGround;
 
-    //Movement
+
+    private bool isOnGround;
     private Vector2 moveInput;
     private bool mouseClicked;
-    public float energy;
+    [HideInInspector] public float energy;
+    [HideInInspector] public bool isDead;
 
 
 
@@ -138,6 +140,13 @@ public class CharacterController : MonoBehaviour
     private void OnDisable()
     {
         inputActions.Disable();
+    }
+
+    public void Died()
+    {
+        isDead = true;
+        playerAnim.SetBool("Dead", true);
+        StopAllCoroutines();
     }
 
     public IEnumerator ShieldDecay()

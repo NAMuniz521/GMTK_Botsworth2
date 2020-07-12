@@ -3358,7 +3358,11 @@ MonoBehaviour:
   shield: {fileID: 135299292}
   speed: 0.531
   jumpForce: 20
-  isOnGround: 0
+  maxEnergy: 100
+  energyUsedPerSecond: 5
+  energyGainedPerSecond: 1
+  energy: 0
+  isDead: 0
 --- !u!50 &1332806465
 Rigidbody2D:
   serializedVersion: 4
