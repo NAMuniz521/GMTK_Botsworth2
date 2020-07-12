@@ -83,8 +83,10 @@ public class CharacterController : MonoBehaviour
     {
         if(energy > 0)
         {
+            playerAudio.clip = AudioManager.singleton.shield;
             //Debug.Log("Shield Active");
             shield.SetActive(true);
+            playerAudio.Play();
             StartCoroutine(ShieldDecay());
             isShieldActive = true;
         }

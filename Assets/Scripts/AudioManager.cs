@@ -20,6 +20,7 @@ public class AudioManager : Singleton<AudioManager>
     public AudioClip shot2;
     public AudioClip shot3;
     public AudioClip shot4;
+    public AudioClip shield;
 
     // Start is called before the first frame update
     void Start()
