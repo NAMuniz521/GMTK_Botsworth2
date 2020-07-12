@@ -1,0 +1,3629 @@
+fileFormatVersion: 2
+guid: d826c2583fc1c624da410ad2bb8ee54f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9069793800874068057
+    second: hackedlogosheet_0
+  - first:
+      213: -8844095995908554479
+    second: hackedlogosheet_1
+  - first:
+      213: 1343721403260772727
+    second: hackedlogosheet_2
+  - first:
+      213: 1323656630578052440
+    second: hackedlogosheet_3
+  - first:
+      213: -2882921874823759683
+    second: hackedlogosheet_4
+  - first:
+      213: 3579957757709382310
+    second: hackedlogosheet_5
+  - first:
+      213: 3521343193227606155
+    second: hackedlogosheet_6
+  - first:
+      213: -4102695259188589283
+    second: hackedlogosheet_7
+  - first:
+      213: 2613975469041510162
+    second: hackedlogosheet_8
+  - first:
+      213: 3434423925801427379
+    second: hackedlogosheet_9
+  - first:
+      213: 638375387152064811
+    second: hackedlogosheet_10
+  - first:
+      213: -8018910681489280532
+    second: hackedlogosheet_11
+  - first:
+      213: 8098960317945644079
+    second: hackedlogosheet_12
+  - first:
+      213: 1273495645773998621
+    second: hackedlogosheet_13
+  - first:
+      213: -124800723329282708
+    second: hackedlogosheet_14
+  - first:
+      213: -7118794176651302345
+    second: hackedlogosheet_15
+  - first:
+      213: -9040118989240180754
+    second: hackedlogosheet_16
+  - first:
+      213: -2674206418299809736
+    second: hackedlogosheet_17
+  - first:
+      213: -8619979045421312222
+    second: hackedlogosheet_18
+  - first:
+      213: 8439733877715329541
+    second: hackedlogosheet_19
+  - first:
+      213: 6647589849284538657
+    second: hackedlogosheet_20
+  - first:
+      213: 5226277914408619223
+    second: hackedlogosheet_21
+  - first:
+      213: -4785800130742761807
+    second: hackedlogosheet_22
+  - first:
+      213: -7267428558012539163
+    second: hackedlogosheet_23
+  - first:
+      213: 3705503462553207594
+    second: hackedlogosheet_24
+  - first:
+      213: -6017295482415057198
+    second: hackedlogosheet_25
+  - first:
+      213: -605181127768637900
+    second: hackedlogosheet_26
+  - first:
+      213: -3444779525386983901
+    second: hackedlogosheet_27
+  - first:
+      213: 7382261627736024810
+    second: hackedlogosheet_28
+  - first:
+      213: 1498716402805705540
+    second: hackedlogosheet_29
+  - first:
+      213: 6755268288552797662
+    second: hackedlogosheet_30
+  - first:
+      213: -5850884195050275213
+    second: hackedlogosheet_31
+  - first:
+      213: -385115391119690444
+    second: hackedlogosheet_32
+  - first:
+      213: 1883183066661854376
+    second: hackedlogosheet_33
+  - first:
+      213: 1986037984632128985
+    second: hackedlogosheet_34
+  - first:
+      213: -9023945950351871544
+    second: hackedlogosheet_35
+  - first:
+      213: 8542281645820389390
+    second: hackedlogosheet_36
+  - first:
+      213: -839892970931725164
+    second: hackedlogosheet_37
+  - first:
+      213: 3898837318019737758
+    second: hackedlogosheet_38
+  - first:
+      213: 3838930673781222895
+    second: hackedlogosheet_39
+  - first:
+      213: 235596427114142633
+    second: hackedlogosheet_40
+  - first:
+      213: 2086143316330816495
+    second: hackedlogosheet_41
+  - first:
+      213: -4560623518108182244
+    second: hackedlogosheet_42
+  - first:
+      213: 1129123820584283548
+    second: hackedlogosheet_43
+  - first:
+      213: 3821973221315159729
+    second: hackedlogosheet_44
+  - first:
+      213: 5642085905082307328
+    second: hackedlogosheet_45
+  - first:
+      213: 4348663483508235100
+    second: hackedlogosheet_46
+  - first:
+      213: 4142095323075240496
+    second: hackedlogosheet_47
+  - first:
+      213: 2727121541657833465
+    second: hackedlogosheet_48
+  - first:
+      213: -4277659597088976868
+    second: hackedlogosheet_49
+  - first:
+      213: 4921739287137285436
+    second: hackedlogosheet_50
+  - first:
+      213: 7551645240018882783
+    second: hackedlogosheet_51
+  - first:
+      213: -2935088247123724316
+    second: hackedlogosheet_52
+  - first:
+      213: -7647977802108080793
+    second: hackedlogosheet_53
+  - first:
+      213: -5566512229963440441
+    second: hackedlogosheet_54
+  - first:
+      213: 9017975820080330304
+    second: hackedlogosheet_55
+  - first:
+      213: -8945710782710275919
+    second: hackedlogosheet_56
+  - first:
+      213: 303843906995820816
+    second: hackedlogosheet_57
+  - first:
+      213: 6265354590680215490
+    second: hackedlogosheet_58
+  - first:
+      213: 3728296848925178506
+    second: hackedlogosheet_59
+  - first:
+      213: 5776694090261899000
+    second: hackedlogosheet_60
+  - first:
+      213: -471660073171170016
+    second: hackedlogosheet_61
+  - first:
+      213: -794240328798639505
+    second: hackedlogosheet_62
+  - first:
+      213: 4006686986906925529
+    second: hackedlogosheet_63
+  - first:
+      213: 6282169898583725289
+    second: hackedlogosheet_64
+  - first:
+      213: -1121971937748209273
+    second: hackedlogosheet_65
+  - first:
+      213: -8072404760339221414
+    second: hackedlogosheet_66
+  - first:
+      213: 7557177141443064386
+    second: hackedlogosheet_67
+  - first:
+      213: 4276367533464613593
+    second: hackedlogosheet_68
+  - first:
+      213: 661203266429759662
+    second: hackedlogosheet_69
+  - first:
+      213: -879508201001180201
+    second: hackedlogosheet_70
+  - first:
+      213: 7720056992773643934
+    second: hackedlogosheet_71
+  - first:
+      213: 973704369861446561
+    second: hackedlogosheet_72
+  - first:
+      213: 6402386425373051770
+    second: hackedlogosheet_73
+  - first:
+      213: -7687694949773704420
+    second: hackedlogosheet_74
+  - first:
+      213: -1568198772655912899
+    second: hackedlogosheet_75
+  - first:
+      213: -4750772039179502389
+    second: hackedlogosheet_76
+  - first:
+      213: -8390265918382702310
+    second: hackedlogosheet_77
+  - first:
+      213: -4789451119633104790
+    second: hackedlogosheet_78
+  - first:
+      213: 504938906449661865
+    second: hackedlogosheet_79
+  - first:
+      213: -5491862842855725652
+    second: hackedlogosheet_80
+  - first:
+      213: 3029297044596128158
+    second: hackedlogosheet_81
+  - first:
+      213: 4070373729668073128
+    second: hackedlogosheet_82
+  - first:
+      213: -5055627676792409854
+    second: hackedlogosheet_83
+  - first:
+      213: 1383480773585789939
+    second: hackedlogosheet_84
+  - first:
+      213: -3995278416025995176
+    second: hackedlogosheet_85
+  - first:
+      213: -8541327365311106079
+    second: hackedlogosheet_86
+  - first:
+      213: 844016348188268987
+    second: hackedlogosheet_87
+  - first:
+      213: -370477083911275241
+    second: hackedlogosheet_88
+  - first:
+      213: -2562783302215208649
+    second: hackedlogosheet_89
+  - first:
+      213: -4483158889066655716
+    second: hackedlogosheet_90
+  - first:
+      213: -2666143818813354798
+    second: hackedlogosheet_91
+  - first:
+      213: 2337876094794072713
+    second: hackedlogosheet_92
+  - first:
+      213: -4891839965283728079
+    second: hackedlogosheet_93
+  - first:
+      213: 4439321472747512416
+    second: hackedlogosheet_94
+  - first:
+      213: -5304717332209709298
+    second: hackedlogosheet_95
+  - first:
+      213: 1358685307173612032
+    second: hackedlogosheet_96
+  - first:
+      213: 6966345707154617078
+    second: hackedlogosheet_97
+  - first:
+      213: 2551480909856918923
+    second: hackedlogosheet_98
+  - first:
+      213: -8829460639929376235
+    second: hackedlogosheet_99
+  - first:
+      213: -4448760214761733239
+    second: hackedlogosheet_100
+  - first:
+      213: -3004139755438627625
+    second: hackedlogosheet_101
+  - first:
+      213: 3313567258693958018
+    second: hackedlogosheet_102
+  - first:
+      213: 18926936980281340
+    second: hackedlogosheet_103
+  - first:
+      213: -3474468847249507421
+    second: hackedlogosheet_104
+  - first:
+      213: -8810961296774128614
+    second: hackedlogosheet_105
+  - first:
+      213: -5988517233605593795
+    second: hackedlogosheet_106
+  - first:
+      213: 6927037697764857920
+    second: hackedlogosheet_107
+  - first:
+      213: 9071178797234846177
+    second: hackedlogosheet_108
+  - first:
+      213: -7197594513679890064
+    second: hackedlogosheet_109
+  - first:
+      213: 5276420548388542097
+    second: hackedlogosheet_110
+  - first:
+      213: 7820114367220469527
+    second: hackedlogosheet_111
+  - first:
+      213: 6398442215159546332
+    second: hackedlogosheet_112
+  - first:
+      213: 9017289360114450668
+    second: hackedlogosheet_113
+  - first:
+      213: 3410908394458944503
+    second: hackedlogosheet_114
+  - first:
+      213: -8725545858113501081
+    second: hackedlogosheet_115
+  - first:
+      213: 6300641202123175404
+    second: hackedlogosheet_116
+  - first:
+      213: -1221947645024635204
+    second: hackedlogosheet_117
+  - first:
+      213: 889070287477930348
+    second: hackedlogosheet_118
+  - first:
+      213: 8140676275742469632
+    second: hackedlogosheet_119
+  - first:
+      213: -2696816058502658608
+    second: hackedlogosheet_120
+  - first:
+      213: 4837944736539102003
+    second: hackedlogosheet_121
+  - first:
+      213: 3288395188856958472
+    second: hackedlogosheet_122
+  - first:
+      213: 2728023969984691133
+    second: hackedlogosheet_123
+  - first:
+      213: -253603534810045837
+    second: hackedlogosheet_124
+  - first:
+      213: 4128542065338103648
+    second: hackedlogosheet_125
+  - first:
+      213: -350943165096698826
+    second: hackedlogosheet_126
+  - first:
+      213: -2105564138391300585
+    second: hackedlogosheet_127
+  - first:
+      213: 8643215639483338980
+    second: hackedlogosheet_128
+  - first:
+      213: 2720318637703207225
+    second: hackedlogosheet_129
+  - first:
+      213: -5854188887943854266
+    second: hackedlogosheet_130
+  - first:
+      213: 6862624644193017117
+    second: hackedlogosheet_131
+  - first:
+      213: -2908799255983418609
+    second: hackedlogosheet_132
+  - first:
+      213: 9057894046024995138
+    second: hackedlogosheet_133
+  - first:
+      213: -9195694896027814788
+    second: hackedlogosheet_134
+  - first:
+      213: -2544556203808127838
+    second: hackedlogosheet_135
+  - first:
+      213: 1488190445838812711
+    second: hackedlogosheet_136
+  - first:
+      213: -6286689367220109938
+    second: hackedlogosheet_137
+  - first:
+      213: -4388218207617852576
+    second: hackedlogosheet_138
+  - first:
+      213: 8132086483812517809
+    second: hackedlogosheet_139
+  - first:
+      213: 4394002170920306730
+    second: hackedlogosheet_140
+  - first:
+      213: -3657739710314799771
+    second: hackedlogosheet_141
+  - first:
+      213: 2349814376264003628
+    second: hackedlogosheet_142
+  - first:
+      213: 5170386482982826908
+    second: hackedlogosheet_143
+  - first:
+      213: 5604995872051609893
+    second: hackedlogosheet_144
+  - first:
+      213: 3876296248384718366
+    second: hackedlogosheet_145
+  - first:
+      213: -5712493806442246540
+    second: hackedlogosheet_146
+  - first:
+      213: 2253445719875602465
+    second: hackedlogosheet_147
+  - first:
+      213: 1414479473075799224
+    second: hackedlogosheet_148
+  - first:
+      213: 6603291037843533281
+    second: hackedlogosheet_149
+  - first:
+      213: -815110611976033127
+    second: hackedlogosheet_150
+  - first:
+      213: 8936745407844624861
+    second: hackedlogosheet_151
+  - first:
+      213: 7427348604106550641
+    second: hackedlogosheet_152
+  - first:
+      213: -2338226800179684719
+    second: hackedlogosheet_153
+  - first:
+      213: -3719924162552153572
+    second: hackedlogosheet_154
+  - first:
+      213: 2265051664519847983
+    second: hackedlogosheet_155
+  - first:
+      213: -5270279048007909470
+    second: hackedlogosheet_156
+  - first:
+      213: 8202780271652792945
+    second: hackedlogosheet_157
+  - first:
+      213: 1658013389206772725
+    second: hackedlogosheet_158
+  - first:
+      213: -4312305595657968127
+    second: hackedlogosheet_159
+  - first:
+      213: 2461505196944322592
+    second: hackedlogosheet_160
+  - first:
+      213: -5207631441625167997
+    second: hackedlogosheet_161
+  - first:
+      213: 8192203214558244176
+    second: hackedlogosheet_162
+  - first:
+      213: 6349979711267341537
+    second: hackedlogosheet_163
+  - first:
+      213: 2392856126565407764
+    second: hackedlogosheet_164
+  - first:
+      213: 2764212948144507294
+    second: hackedlogosheet_165
+  - first:
+      213: 6062942525645733832
+    second: hackedlogosheet_166
+  - first:
+      213: 8339847237981572069
+    second: hackedlogosheet_167
+  - first:
+      213: 8611879819607442171
+    second: hackedlogosheet_168
+  - first:
+      213: 8836937822435763152
+    second: hackedlogosheet_169
+  - first:
+      213: -7279651367978348931
+    second: hackedlogosheet_170
+  - first:
+      213: -3031657310046067237
+    second: hackedlogosheet_171
+  - first:
+      213: 4089500978617328753
+    second: hackedlogosheet_172
+  - first:
+      213: 5701075826990414869
+    second: hackedlogosheet_173
+  - first:
+      213: -2135479649446929315
+    second: hackedlogosheet_174
+  - first:
+      213: -2888160539631402880
+    second: hackedlogosheet_175
+  - first:
+      213: 4899543245837068388
+    second: hackedlogosheet_176
+  - first:
+      213: -6407656257132179079
+    second: hackedlogosheet_177
+  - first:
+      213: -339719343326698614
+    second: hackedlogosheet_178
+  - first:
+      213: -7162653535207365632
+    second: hackedlogosheet_179
+  - first:
+      213: -2820576451298946655
+    second: hackedlogosheet_180
+  - first:
+      213: 3080877637408730946
+    second: hackedlogosheet_181
+  - first:
+      213: 5273730670796040939
+    second: hackedlogosheet_182
+  - first:
+      213: -3451371323196847378
+    second: hackedlogosheet_183
+  - first:
+      213: 5574996398446563432
+    second: hackedlogosheet_184
+  - first:
+      213: -1078970801214106658
+    second: hackedlogosheet_185
+  - first:
+      213: -4295368695349596531
+    second: hackedlogosheet_186
+  - first:
+      213: 350093502177345382
+    second: hackedlogosheet_187
+  - first:
+      213: -446572995184388142
+    second: hackedlogosheet_188
+  - first:
+      213: 8422614833294127955
+    second: hackedlogosheet_189
+  - first:
+      213: 6823055063637577219
+    second: hackedlogosheet_190
+  - first:
+      213: -7322602615380076722
+    second: hackedlogosheet_191
+  - first:
+      213: 8652911955795018897
+    second: hackedlogosheet_192
+  - first:
+      213: -5583975415015550988
+    second: hackedlogosheet_193
+  - first:
+      213: 2231226895790580916
+    second: hackedlogosheet_194
+  - first:
+      213: 783453215245711425
+    second: hackedlogosheet_195
+  - first:
+      213: 2338026430703245500
+    second: hackedlogosheet_196
+  - first:
+      213: 122748831044158404
+    second: hackedlogosheet_197
+  - first:
+      213: 8184167225702267286
+    second: hackedlogosheet_198
+  - first:
+      213: -2821252087921350547
+    second: hackedlogosheet_199
+  - first:
+      213: -4030897210941299164
+    second: hackedlogosheet_200
+  - first:
+      213: 2640275592569864226
+    second: hackedlogosheet_201
+  - first:
+      213: 4323956211950809461
+    second: hackedlogosheet_202
+  - first:
+      213: 7109475439770850415
+    second: hackedlogosheet_203
+  - first:
+      213: 3806802822104632466
+    second: hackedlogosheet_204
+  - first:
+      213: -3227562278681526388
+    second: hackedlogosheet_205
+  - first:
+      213: 619611737497317727
+    second: hackedlogosheet_206
+  - first:
+      213: -3621164552999446402
+    second: hackedlogosheet_207
+  - first:
+      213: 1872654255105908537
+    second: hackedlogosheet_208
+  - first:
+      213: -110386447758921012
+    second: hackedlogosheet_209
+  - first:
+      213: 5478435492152560694
+    second: hackedlogosheet_210
+  - first:
+      213: 5597531810420654604
+    second: hackedlogosheet_211
+  - first:
+      213: -8121097104548896679
+    second: hackedlogosheet_212
+  - first:
+      213: 1128732596022296378
+    second: hackedlogosheet_213
+  - first:
+      213: 7764439446934887312
+    second: hackedlogosheet_214
+  - first:
+      213: -4139822899638605603
+    second: hackedlogosheet_215
+  - first:
+      213: -3182214756537560001
+    second: hackedlogosheet_216
+  - first:
+      213: -3412165824404561103
+    second: hackedlogosheet_217
+  - first:
+      213: 121187876399928181
+    second: hackedlogosheet_218
+  - first:
+      213: -5822010801905928004
+    second: hackedlogosheet_219
+  - first:
+      213: -2496486981597908019
+    second: hackedlogosheet_220
+  - first:
+      213: -7041770522057186758
+    second: hackedlogosheet_221
+  - first:
+      213: -8212217829480047363
+    second: hackedlogosheet_222
+  - first:
+      213: -7697337230562262433
+    second: hackedlogosheet_223
+  - first:
+      213: 8036834451223049907
+    second: hackedlogosheet_224
+  - first:
+      213: -5169805807033431449
+    second: hackedlogosheet_225
+  - first:
+      213: -5806315882437280230
+    second: hackedlogosheet_226
+  - first:
+      213: -4183915393474019945
+    second: hackedlogosheet_227
+  - first:
+      213: -7617514118276024049
+    second: hackedlogosheet_228
+  - first:
+      213: 8060305985049226023
+    second: hackedlogosheet_229
+  - first:
+      213: 3446561854812281879
+    second: hackedlogosheet_230
+  - first:
+      213: 2894293728629146468
+    second: hackedlogosheet_231
+  - first:
+      213: 8035762498329614743
+    second: hackedlogosheet_232
+  - first:
+      213: 7856802990465869781
+    second: hackedlogosheet_233
+  - first:
+      213: 5096438322334112140
+    second: hackedlogosheet_234
+  - first:
+      213: 7750214537383637411
+    second: hackedlogosheet_235
+  - first:
+      213: 6656802669017700246
+    second: hackedlogosheet_236
+  - first:
+      213: -6890169885313884115
+    second: hackedlogosheet_237
+  - first:
+      213: -1566334637340834820
+    second: hackedlogosheet_238
+  - first:
+      213: 5647163055007056428
+    second: hackedlogosheet_239
+  - first:
+      213: -7703435512386385839
+    second: hackedlogosheet_240
+  - first:
+      213: 9028600447941728525
+    second: hackedlogosheet_241
+  - first:
+      213: 9211101258261087793
+    second: hackedlogosheet_242
+  - first:
+      213: -239511697594527453
+    second: hackedlogosheet_243
+  - first:
+      213: -1940262321496886128
+    second: hackedlogosheet_244
+  - first:
+      213: -5744802207329928079
+    second: hackedlogosheet_245
+  - first:
+      213: -5606926352959075690
+    second: hackedlogosheet_246
+  - first:
+      213: -1046257851025984043
+    second: hackedlogosheet_247
+  - first:
+      213: -5249337568695645514
+    second: hackedlogosheet_248
+  - first:
+      213: -3020450967539120288
+    second: hackedlogosheet_249
+  - first:
+      213: 8986619314805577682
+    second: hackedlogosheet_250
+  - first:
+      213: 6206654365707639001
+    second: hackedlogosheet_251
+  - first:
+      213: -9010327670512381134
+    second: hackedlogosheet_252
+  - first:
+      213: -5817022870240159935
+    second: hackedlogosheet_253
+  - first:
+      213: -7178366647915822826
+    second: hackedlogosheet_254
+  - first:
+      213: -7974683652993021885
+    second: hackedlogosheet_255
+  - first:
+      213: 7525031493623062927
+    second: hackedlogosheet_256
+  - first:
+      213: 7356882667516736460
+    second: hackedlogosheet_257
+  - first:
+      213: 6182793816504263731
+    second: hackedlogosheet_258
+  - first:
+      213: -1261351525600707733
+    second: hackedlogosheet_259
+  - first:
+      213: 9177602359614097781
+    second: hackedlogosheet_260
+  - first:
+      213: -4235176267547805673
+    second: hackedlogosheet_261
+  - first:
+      213: -2422789676216479677
+    second: hackedlogosheet_262
+  - first:
+      213: 6686994698338476433
+    second: hackedlogosheet_263
+  - first:
+      213: 6753190865042167150
+    second: hackedlogosheet_264
+  - first:
+      213: 4573847340359428636
+    second: hackedlogosheet_265
+  - first:
+      213: 1204049065171700187
+    second: hackedlogosheet_266
+  - first:
+      213: -7387719360300580404
+    second: hackedlogosheet_267
+  - first:
+      213: 2541797504770220344
+    second: hackedlogosheet_268
+  - first:
+      213: 4680100777060610041
+    second: hackedlogosheet_269
+  - first:
+      213: -7565373069800263469
+    second: hackedlogosheet_270
+  - first:
+      213: 8750576945798173811
+    second: hackedlogosheet_271
+  - first:
+      213: 576732494202777906
+    second: hackedlogosheet_272
+  - first:
+      213: 3045153121930121872
+    second: hackedlogosheet_273
+  - first:
+      213: -2396583792637733614
+    second: hackedlogosheet_274
+  - first:
+      213: -6643138073023759457
+    second: hackedlogosheet_275
+  - first:
+      213: -9050977523389166531
+    second: hackedlogosheet_276
+  - first:
+      213: 1856769149978758978
+    second: hackedlogosheet_277
+  - first:
+      213: 8076536070454143153
+    second: hackedlogosheet_278
+  - first:
+      213: 1609074907611009391
+    second: hackedlogosheet_279
+  - first:
+      213: 8209573283121648446
+    second: hackedlogosheet_280
+  - first:
+      213: 542222334880439226
+    second: hackedlogosheet_281
+  - first:
+      213: 6654429735797714890
+    second: hackedlogosheet_282
+  - first:
+      213: -8751125924276479326
+    second: hackedlogosheet_283
+  - first:
+      213: -1884771716094210008
+    second: hackedlogosheet_284
+  - first:
+      213: 1245094369550836457
+    second: hackedlogosheet_285
+  - first:
+      213: 4270397211130695609
+    second: hackedlogosheet_286
+  - first:
+      213: -4529794114673079103
+    second: hackedlogosheet_287
+  - first:
+      213: -5100344781059085569
+    second: hackedlogosheet_288
+  - first:
+      213: 3995099973402351111
+    second: hackedlogosheet_289
+  - first:
+      213: 302473270245394650
+    second: hackedlogosheet_290
+  - first:
+      213: 4896734027644877930
+    second: hackedlogosheet_291
+  - first:
+      213: 486553329339449321
+    second: hackedlogosheet_292
+  - first:
+      213: 1495999244424106568
+    second: hackedlogosheet_293
+  - first:
+      213: -4694068123185532595
+    second: hackedlogosheet_294
+  - first:
+      213: -2925668677943189643
+    second: hackedlogosheet_295
+  - first:
+      213: -5949920212367979694
+    second: hackedlogosheet_296
+  - first:
+      213: 5910144094915661304
+    second: hackedlogosheet_297
+  - first:
+      213: -7555265203349186844
+    second: hackedlogosheet_298
+  - first:
+      213: -1845246406531551682
+    second: hackedlogosheet_299
+  - first:
+      213: 8169277825723479002
+    second: hackedlogosheet_300
+  - first:
+      213: -4180001937528456472
+    second: hackedlogosheet_301
+  - first:
+      213: 922107386848567734
+    second: hackedlogosheet_302
+  - first:
+      213: 3253612234450491526
+    second: hackedlogosheet_303
+  - first:
+      213: 1121327951680551712
+    second: hackedlogosheet_304
+  - first:
+      213: 8322493595657722966
+    second: hackedlogosheet_305
+  - first:
+      213: -3933998841543908326
+    second: hackedlogosheet_306
+  - first:
+      213: -5739345176806746175
+    second: hackedlogosheet_307
+  - first:
+      213: -3145879510657711754
+    second: hackedlogosheet_308
+  - first:
+      213: -939814365433455776
+    second: hackedlogosheet_309
+  - first:
+      213: 9139866593516143363
+    second: hackedlogosheet_310
+  - first:
+      213: -1474283675875951167
+    second: hackedlogosheet_311
+  - first:
+      213: -3538731325497986466
+    second: hackedlogosheet_312
+  - first:
+      213: 7973864928082585370
+    second: hackedlogosheet_313
+  - first:
+      213: 5275476588163425284
+    second: hackedlogosheet_314
+  - first:
+      213: -33187305247874876
+    second: hackedlogosheet_315
+  - first:
+      213: 169928228357442233
+    second: hackedlogosheet_316
+  - first:
+      213: 4631710670525730490
+    second: hackedlogosheet_317
+  - first:
+      213: 4745655646135538634
+    second: hackedlogosheet_318
+  - first:
+      213: -6138716358147359152
+    second: hackedlogosheet_319
+  - first:
+      213: 1830520076285708106
+    second: hackedlogosheet_320
+  - first:
+      213: 3780699709673550422
+    second: hackedlogosheet_321
+  - first:
+      213: 4286620046013128660
+    second: hackedlogosheet_322
+  - first:
+      213: -2843493812659498130
+    second: hackedlogosheet_323
+  - first:
+      213: 2569667624281499453
+    second: hackedlogosheet_324
+  - first:
+      213: 6216173094926784362
+    second: hackedlogosheet_325
+  - first:
+      213: 7286703791340838324
+    second: hackedlogosheet_326
+  - first:
+      213: -7702046922769080533
+    second: hackedlogosheet_327
+  - first:
+      213: -6381057410297456276
+    second: hackedlogosheet_328
+  - first:
+      213: -1055434397759504934
+    second: hackedlogosheet_329
+  - first:
+      213: 750546540197402323
+    second: hackedlogosheet_330
+  - first:
+      213: 891113788344245910
+    second: hackedlogosheet_331
+  - first:
+      213: -1140543638834691207
+    second: hackedlogosheet_332
+  - first:
+      213: -3758188349412853526
+    second: hackedlogosheet_333
+  - first:
+      213: -1507941538004723047
+    second: hackedlogosheet_334
+  - first:
+      213: 5517057233998008327
+    second: hackedlogosheet_335
+  - first:
+      213: -8293863662685342301
+    second: hackedlogosheet_336
+  - first:
+      213: -1578643541446046495
+    second: hackedlogosheet_337
+  - first:
+      213: -4423637507932191084
+    second: hackedlogosheet_338
+  - first:
+      213: -8303036595159412629
+    second: hackedlogosheet_339
+  - first:
+      213: 2355339345602918280
+    second: hackedlogosheet_340
+  - first:
+      213: 939025909796940668
+    second: hackedlogosheet_341
+  - first:
+      213: -7334279783379555339
+    second: hackedlogosheet_342
+  - first:
+      213: -3398029030623580463
+    second: hackedlogosheet_343
+  - first:
+      213: -4291111611335371499
+    second: hackedlogosheet_344
+  - first:
+      213: 6439993011763768950
+    second: hackedlogosheet_345
+  - first:
+      213: 4959769919238567938
+    second: hackedlogosheet_346
+  - first:
+      213: -1332686984945949282
+    second: hackedlogosheet_347
+  - first:
+      213: 6093936445783941565
+    second: hackedlogosheet_348
+  - first:
+      213: 1493652414776306427
+    second: hackedlogosheet_349
+  - first:
+      213: 5872994174870504261
+    second: hackedlogosheet_350
+  - first:
+      213: -6021973457633252277
+    second: hackedlogosheet_351
+  - first:
+      213: -1004029616790603453
+    second: hackedlogosheet_352
+  - first:
+      213: -4159433605230239718
+    second: hackedlogosheet_353
+  - first:
+      213: -4414279728204737485
+    second: hackedlogosheet_354
+  - first:
+      213: 1259037693398516160
+    second: hackedlogosheet_355
+  - first:
+      213: 5893346536609786096
+    second: hackedlogosheet_356
+  - first:
+      213: -6306051219983524962
+    second: hackedlogosheet_357
+  - first:
+      213: 7068491684447467907
+    second: hackedlogosheet_358
+  - first:
+      213: 8747191472830057
+    second: hackedlogosheet_359
+  - first:
+      213: 721205526324113179
+    second: hackedlogosheet_360
+  - first:
+      213: 5774195705787839099
+    second: hackedlogosheet_361
+  - first:
+      213: 2324685479871891250
+    second: hackedlogosheet_362
+  - first:
+      213: 4420899191770548884
+    second: hackedlogosheet_363
+  - first:
+      213: -7689793965019037882
+    second: hackedlogosheet_364
+  - first:
+      213: 6666106943560079285
+    second: hackedlogosheet_365
+  - first:
+      213: -2558280208818146908
+    second: hackedlogosheet_366
+  - first:
+      213: -5701194256268763587
+    second: hackedlogosheet_367
+  - first:
+      213: 3462217260408716569
+    second: hackedlogosheet_368
+  - first:
+      213: 7551871944511812651
+    second: hackedlogosheet_369
+  - first:
+      213: -6244173201525563560
+    second: hackedlogosheet_370
+  - first:
+      213: -7223174842784957324
+    second: hackedlogosheet_371
+  - first:
+      213: -7572257600603292111
+    second: hackedlogosheet_372
+  - first:
+      213: 7414964579288245384
+    second: hackedlogosheet_373
+  - first:
+      213: 3352352736531537888
+    second: hackedlogosheet_374
+  - first:
+      213: 3762675498720256059
+    second: hackedlogosheet_375
+  - first:
+      213: -5158105441547744211
+    second: hackedlogosheet_376
+  - first:
+      213: 1711876286066064915
+    second: hackedlogosheet_377
+  - first:
+      213: -4688360516517862683
+    second: hackedlogosheet_378
+  - first:
+      213: 257929680169004704
+    second: hackedlogosheet_379
+  - first:
+      213: 4986119713961169245
+    second: hackedlogosheet_380
+  - first:
+      213: 4330969358059363762
+    second: hackedlogosheet_381
+  - first:
+      213: -2621500574001608884
+    second: hackedlogosheet_382
+  - first:
+      213: 8530407308919671378
+    second: hackedlogosheet_383
+  - first:
+      213: -3203169540524986556
+    second: hackedlogosheet_384
+  - first:
+      213: 1261791132802585332
+    second: hackedlogosheet_385
+  - first:
+      213: 5115799913318976162
+    second: hackedlogosheet_386
+  - first:
+      213: -1057148015716979271
+    second: hackedlogosheet_387
+  - first:
+      213: -3251086414527840759
+    second: hackedlogosheet_388
+  - first:
+      213: 7049549054862211861
+    second: hackedlogosheet_389
+  - first:
+      213: 6473087517525821238
+    second: hackedlogosheet_390
+  - first:
+      213: -4537677887295638378
+    second: hackedlogosheet_391
+  - first:
+      213: 3670551430301859695
+    second: hackedlogosheet_392
+  - first:
+      213: -4104017827156156116
+    second: hackedlogosheet_393
+  - first:
+      213: -34365763536989519
+    second: hackedlogosheet_394
+  - first:
+      213: 3025537196266283811
+    second: hackedlogosheet_395
+  - first:
+      213: -7144951631159683455
+    second: hackedlogosheet_396
+  - first:
+      213: 7440038722655901929
+    second: hackedlogosheet_397
+  - first:
+      213: 469206348645295058
+    second: hackedlogosheet_398
+  - first:
+      213: 3847085541000915008
+    second: hackedlogosheet_399
+  - first:
+      213: -6676611200432885237
+    second: hackedlogosheet_400
+  - first:
+      213: -5402773379258911803
+    second: hackedlogosheet_401
+  - first:
+      213: -314334259164832403
+    second: hackedlogosheet_402
+  - first:
+      213: -2258564309205959372
+    second: hackedlogosheet_403
+  - first:
+      213: 1360548786992270378
+    second: hackedlogosheet_404
+  - first:
+      213: -4078773356429664188
+    second: hackedlogosheet_405
+  - first:
+      213: 6969250588303941970
+    second: hackedlogosheet_406
+  - first:
+      213: -8883388457126610340
+    second: hackedlogosheet_407
+  - first:
+      213: -891121006315675449
+    second: hackedlogosheet_408
+  - first:
+      213: 2348031182252671609
+    second: hackedlogosheet_409
+  - first:
+      213: 8920878820285186990
+    second: hackedlogosheet_410
+  - first:
+      213: -1902391526377522590
+    second: hackedlogosheet_411
+  - first:
+      213: 5379555850769331066
+    second: hackedlogosheet_412
+  - first:
+      213: 2049909287640580909
+    second: hackedlogosheet_413
+  - first:
+      213: 2672273320230353285
+    second: hackedlogosheet_414
+  - first:
+      213: -4067905857540541927
+    second: hackedlogosheet_415
+  - first:
+      213: 7399861416953350993
+    second: hackedlogosheet_416
+  - first:
+      213: -5603999490877355703
+    second: hackedlogosheet_417
+  - first:
+      213: 5458056938926150730
+    second: hackedlogosheet_418
+  - first:
+      213: -3307124327531191737
+    second: hackedlogosheet_419
+  - first:
+      213: -9078782955882124117
+    second: hackedlogosheet_420
+  - first:
+      213: -8212041769469755307
+    second: hackedlogosheet_421
+  - first:
+      213: 1706630614010722619
+    second: hackedlogosheet_422
+  - first:
+      213: 777784300355830895
+    second: hackedlogosheet_423
+  - first:
+      213: -5310051277541912242
+    second: hackedlogosheet_424
+  - first:
+      213: -4170608907836683312
+    second: hackedlogosheet_425
+  - first:
+      213: 5595268759877860014
+    second: hackedlogosheet_426
+  - first:
+      213: 4401544893614633041
+    second: hackedlogosheet_427
+  - first:
+      213: -4423702359332776639
+    second: hackedlogosheet_428
+  - first:
+      213: 3053910757486890035
+    second: hackedlogosheet_429
+  - first:
+      213: -7592997839269819960
+    second: hackedlogosheet_430
+  - first:
+      213: -8097912193248846163
+    second: hackedlogosheet_431
+  - first:
+      213: -1532953178081710831
+    second: hackedlogosheet_432
+  - first:
+      213: -7508475938035846012
+    second: hackedlogosheet_433
+  - first:
+      213: 5837235688496769247
+    second: hackedlogosheet_434
+  - first:
+      213: 779655829605617223
+    second: hackedlogosheet_435
+  - first:
+      213: 768799077852100262
+    second: hackedlogosheet_436
+  - first:
+      213: -1695597580486360945
+    second: hackedlogosheet_437
+  - first:
+      213: 6430110634842794848
+    second: hackedlogosheet_438
+  - first:
+      213: 2400498153230704511
+    second: hackedlogosheet_439
+  - first:
+      213: 2566249613801610522
+    second: hackedlogosheet_440
+  - first:
+      213: 5372141755562141113
+    second: hackedlogosheet_441
+  - first:
+      213: 4976701835810240098
+    second: hackedlogosheet_442
+  - first:
+      213: 1542373091684610473
+    second: hackedlogosheet_443
+  - first:
+      213: 1894676966912031326
+    second: hackedlogosheet_444
+  - first:
+      213: -2010516668683754124
+    second: hackedlogosheet_445
+  - first:
+      213: -7097474848098602315
+    second: hackedlogosheet_446
+  - first:
+      213: -3563298816565077333
+    second: hackedlogosheet_447
+  - first:
+      213: -1300909372472333586
+    second: hackedlogosheet_448
+  - first:
+      213: 1654067960265237934
+    second: hackedlogosheet_449
+  - first:
+      213: 683673563576002855
+    second: hackedlogosheet_450
+  - first:
+      213: 2455524233462559596
+    second: hackedlogosheet_451
+  - first:
+      213: 8887582618005864323
+    second: hackedlogosheet_452
+  - first:
+      213: -3408946037745997555
+    second: hackedlogosheet_453
+  - first:
+      213: 4826590205096222500
+    second: hackedlogosheet_454
+  - first:
+      213: 170156679663189761
+    second: hackedlogosheet_455
+  - first:
+      213: -5549975207447621727
+    second: hackedlogosheet_456
+  - first:
+      213: -653971827440973379
+    second: hackedlogosheet_457
+  - first:
+      213: 6105028706901859109
+    second: hackedlogosheet_458
+  - first:
+      213: 3065894308699934129
+    second: hackedlogosheet_459
+  - first:
+      213: -6480139411019652670
+    second: hackedlogosheet_460
+  - first:
+      213: 4852745397964565945
+    second: hackedlogosheet_461
+  - first:
+      213: 6033165298134967735
+    second: hackedlogosheet_462
+  - first:
+      213: 7897753963444419230
+    second: hackedlogosheet_463
+  - first:
+      213: 2806359887563118919
+    second: hackedlogosheet_464
+  - first:
+      213: 7175828757499773969
+    second: hackedlogosheet_465
+  - first:
+      213: 5230281690269435809
+    second: hackedlogosheet_466
+  - first:
+      213: 4940085574502170188
+    second: hackedlogosheet_467
+  - first:
+      213: -976736540680818337
+    second: hackedlogosheet_468
+  - first:
+      213: 3737439998439334237
+    second: hackedlogosheet_469
+  - first:
+      213: -4687864720682506729
+    second: hackedlogosheet_470
+  - first:
+      213: 6789405465740424940
+    second: hackedlogosheet_471
+  - first:
+      213: 8521669876497380085
+    second: hackedlogosheet_472
+  - first:
+      213: -8390042827792924925
+    second: hackedlogosheet_473
+  - first:
+      213: -6865043176986791749
+    second: hackedlogosheet_474
+  - first:
+      213: -8393036328885050402
+    second: hackedlogosheet_475
+  - first:
+      213: 8574216312910162659
+    second: hackedlogosheet_476
+  - first:
+      213: 7272366354719892346
+    second: hackedlogosheet_477
+  - first:
+      213: -6644135911880542597
+    second: hackedlogosheet_478
+  - first:
+      213: 7086613934873463112
+    second: hackedlogosheet_479
+  - first:
+      213: -4798091214387239522
+    second: hackedlogosheet_480
+  - first:
+      213: -6438207791442815806
+    second: hackedlogosheet_481
+  - first:
+      213: 5837665829438350121
+    second: hackedlogosheet_482
+  - first:
+      213: 1239950720254353591
+    second: hackedlogosheet_483
+  - first:
+      213: -137697150124647946
+    second: hackedlogosheet_484
+  - first:
+      213: 3701243036994722391
+    second: hackedlogosheet_485
+  - first:
+      213: 7151548462156801209
+    second: hackedlogosheet_486
+  - first:
+      213: 1557047708520561439
+    second: hackedlogosheet_487
+  - first:
+      213: 6916212915726781065
+    second: hackedlogosheet_488
+  - first:
+      213: -4034389504116347962
+    second: hackedlogosheet_489
+  - first:
+      213: 6247301320476981183
+    second: hackedlogosheet_490
+  - first:
+      213: 6850186565813664874
+    second: hackedlogosheet_491
+  - first:
+      213: 2603875949952123499
+    second: hackedlogosheet_492
+  - first:
+      213: -7491805959809315532
+    second: hackedlogosheet_493
+  - first:
+      213: 855411902994681996
+    second: hackedlogosheet_494
+  - first:
+      213: -1728893925094870851
+    second: hackedlogosheet_495
+  - first:
+      213: -5431892690007353529
+    second: hackedlogosheet_496
+  - first:
+      213: 7249631135941989821
+    second: hackedlogosheet_497
+  - first:
+      213: -5812812822143455137
+    second: hackedlogosheet_498
+  - first:
+      213: 9004969871909216594
+    second: hackedlogosheet_499
+  - first:
+      213: 325477898496802088
+    second: hackedlogosheet_500
+  - first:
+      213: -8628919877862800058
+    second: hackedlogosheet_501
+  - first:
+      213: -7523708606475989056
+    second: hackedlogosheet_502
+  - first:
+      213: 4479370797353308319
+    second: hackedlogosheet_503
+  - first:
+      213: -3547406081364519831
+    second: hackedlogosheet_504
+  - first:
+      213: 5991731346313981987
+    second: hackedlogosheet_505
+  - first:
+      213: -2572072446249489306
+    second: hackedlogosheet_506
+  - first:
+      213: -8518809562031606330
+    second: hackedlogosheet_507
+  - first:
+      213: -1913672575756978927
+    second: hackedlogosheet_508
+  - first:
+      213: -729051937079135573
+    second: hackedlogosheet_509
+  - first:
+      213: -6479016482654155374
+    second: hackedlogosheet_510
+  - first:
+      213: 6887763045414536950
+    second: hackedlogosheet_511
+  - first:
+      213: -3434107410774930423
+    second: hackedlogosheet_512
+  - first:
+      213: 3151485411670204864
+    second: hackedlogosheet_513
+  - first:
+      213: -7267866255109890819
+    second: hackedlogosheet_514
+  - first:
+      213: -7506205199562484431
+    second: hackedlogosheet_515
+  - first:
+      213: -3397652461223775455
+    second: hackedlogosheet_516
+  - first:
+      213: -7074426080567082611
+    second: hackedlogosheet_517
+  - first:
+      213: 1580771355426756053
+    second: hackedlogosheet_518
+  - first:
+      213: -3467158260416840092
+    second: hackedlogosheet_519
+  - first:
+      213: -2663402739541824586
+    second: hackedlogosheet_520
+  - first:
+      213: 8211570342743937705
+    second: hackedlogosheet_521
+  - first:
+      213: -4331977388483072240
+    second: hackedlogosheet_522
+  - first:
+      213: -1605514668522647496
+    second: hackedlogosheet_523
+  - first:
+      213: -8053170018239131794
+    second: hackedlogosheet_524
+  - first:
+      213: -5301791544173600535
+    second: hackedlogosheet_525
+  - first:
+      213: -7759049708521056506
+    second: hackedlogosheet_526
+  - first:
+      213: -3427144263452313045
+    second: hackedlogosheet_527
+  - first:
+      213: 2871094873501018087
+    second: hackedlogosheet_528
+  - first:
+      213: 6874620613217053472
+    second: hackedlogosheet_529
+  - first:
+      213: 413041351645780934
+    second: hackedlogosheet_530
+  - first:
+      213: 3439361357049165401
+    second: hackedlogosheet_531
+  - first:
+      213: 8968455503424932691
+    second: hackedlogosheet_532
+  - first:
+      213: 3355432767939578551
+    second: hackedlogosheet_533
+  - first:
+      213: -7228976348540827279
+    second: hackedlogosheet_534
+  - first:
+      213: 7269799478781535785
+    second: hackedlogosheet_535
+  - first:
+      213: 5122124634088552087
+    second: hackedlogosheet_536
+  - first:
+      213: 4446045248686863248
+    second: hackedlogosheet_537
+  - first:
+      213: 665882844122017759
+    second: hackedlogosheet_538
+  - first:
+      213: -4709296921541624264
+    second: hackedlogosheet_539
+  - first:
+      213: 2687267389448383020
+    second: hackedlogosheet_540
+  - first:
+      213: -37913518469292159
+    second: hackedlogosheet_541
+  - first:
+      213: 2054825612853983646
+    second: hackedlogosheet_542
+  - first:
+      213: -4470133317011280533
+    second: hackedlogosheet_543
+  - first:
+      213: 5300965215337904387
+    second: hackedlogosheet_544
+  - first:
+      213: -1618889361549573219
+    second: hackedlogosheet_545
+  - first:
+      213: 6303117311324228448
+    second: hackedlogosheet_546
+  - first:
+      213: -7064008446818191691
+    second: hackedlogosheet_547
+  - first:
+      213: -2599045548609882264
+    second: hackedlogosheet_548
+  - first:
+      213: 3901753966629755627
+    second: hackedlogosheet_549
+  - first:
+      213: 6127196259031681404
+    second: hackedlogosheet_550
+  - first:
+      213: -7028753283940611564
+    second: hackedlogosheet_551
+  - first:
+      213: -60929061170265772
+    second: hackedlogosheet_552
+  - first:
+      213: -7567630198045765607
+    second: hackedlogosheet_553
+  - first:
+      213: 3000888784571678055
+    second: hackedlogosheet_554
+  - first:
+      213: -387601294838671793
+    second: hackedlogosheet_555
+  - first:
+      213: -6914090199062022580
+    second: hackedlogosheet_556
+  - first:
+      213: -6894678048384240255
+    second: hackedlogosheet_557
+  - first:
+      213: -5011903656952104387
+    second: hackedlogosheet_558
+  - first:
+      213: 7939706969338344392
+    second: hackedlogosheet_559
+  - first:
+      213: 7492361332955664225
+    second: hackedlogosheet_560
+  - first:
+      213: 8865351070702913907
+    second: hackedlogosheet_561
+  - first:
+      213: 3117436992910225345
+    second: hackedlogosheet_562
+  - first:
+      213: -2842262381885359109
+    second: hackedlogosheet_563
+  - first:
+      213: -3581951238340710528
+    second: hackedlogosheet_564
+  - first:
+      213: -8104987613238736847
+    second: hackedlogosheet_565
+  - first:
+      213: 7523142645452587263
+    second: hackedlogosheet_566
+  - first:
+      213: -3994167923034037102
+    second: hackedlogosheet_567
+  - first:
+      213: -1143972384608073016
+    second: hackedlogosheet_568
+  - first:
+      213: 1966776358021630975
+    second: hackedlogosheet_569
+  - first:
+      213: 1027832918210638286
+    second: hackedlogosheet_570
+  - first:
+      213: 7317916885329466997
+    second: hackedlogosheet_571
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hackedlogosheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5328
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a77cd8879e912280800000000000000
+      internalID: -9069793800874068057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 5328
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1118a6cbc85734580800000000000000
+      internalID: -8844095995908554479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 5328
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771a2763f7bd5a210800000000000000
+      internalID: 1343721403260772727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_3
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 5328
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85df13641b29e5210800000000000000
+      internalID: 1323656630578052440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_4
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 5328
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db83de744ddcdf7d0800000000000000
+      internalID: -2882921874823759683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5008
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2fb2bfc909ea130800000000000000
+      internalID: 3579957757709382310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 5008
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8832943af25ed030800000000000000
+      internalID: 3521343193227606155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_7
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 5008
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d8266166c4017c0800000000000000
+      internalID: -4102695259188589283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_8
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 5008
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217edc3f6d4b64420800000000000000
+      internalID: 2613975469041510162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_9
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 5008
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b12f793d5689af20800000000000000
+      internalID: 3434423925801427379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4688
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212d884807fbd800800000000000000
+      internalID: 638375387152064811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_11
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 4688
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1fe30a83b17b090800000000000000
+      internalID: -8018910681489280532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_12
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 4688
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f248221cf79456070800000000000000
+      internalID: 8098960317945644079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_13
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 4688
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aad55ea8d5ca110800000000000000
+      internalID: 1273495645773998621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_14
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4688
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d0f32476e944ef0800000000000000
+      internalID: -124800723329282708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4368
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a649fc966f43d90800000000000000
+      internalID: -7118794176651302345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_16
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 4368
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef53170dab0b8280800000000000000
+      internalID: -9040118989240180754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_17
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 4368
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8309b2d5e6f43ead0800000000000000
+      internalID: -2674206418299809736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_18
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 4368
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271a529abeaf5880800000000000000
+      internalID: -8619979045421312222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_19
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4368
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5026d040f35ff1570800000000000000
+      internalID: 8439733877715329541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4048
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121f81b5fbbf04c50800000000000000
+      internalID: 6647589849284538657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_21
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 4048
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc8bc9b218778840800000000000000
+      internalID: 5226277914408619223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_22
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 4048
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b64f09232c659db0800000000000000
+      internalID: -4785800130742761807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_23
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 4048
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee12212b38e42b90800000000000000
+      internalID: -7267428558012539163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_24
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4048
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23c67f34c79c6330800000000000000
+      internalID: 3705503462553207594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3728
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d67616c3a54e7ca0800000000000000
+      internalID: -6017295482415057198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3728
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e749e78f6f997f0800000000000000
+      internalID: -605181127768637900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_27
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 3728
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32625cbd54fa130d0800000000000000
+      internalID: -3444779525386983901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_28
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 3728
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6e33866df037660800000000000000
+      internalID: 7382261627736024810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_29
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3728
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b0948b0a28cc410800000000000000
+      internalID: 1498716402805705540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3408
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed586ada7b88fbd50800000000000000
+      internalID: 6755268288552797662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_31
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3408
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eb41ce2db7dcea0800000000000000
+      internalID: -5850884195050275213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_32
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 3408
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43576ca979bc7aaf0800000000000000
+      internalID: -385115391119690444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_33
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 3408
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac19678509622a10800000000000000
+      internalID: 1883183066661854376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_34
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3408
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d54e684603df8b10800000000000000
+      internalID: 1986037984632128985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3088
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1b3f418f084c280800000000000000
+      internalID: -9023945950351871544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_36
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3088
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08a67ed5e74c8670800000000000000
+      internalID: 8542281645820389390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_37
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 3088
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c544afac91854f0800000000000000
+      internalID: -839892970931725164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_38
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 3088
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e986a9142e37b1630800000000000000
+      internalID: 3898837318019737758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_39
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3088
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feda418bb1f964530800000000000000
+      internalID: 3838930673781222895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2768
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab5d74c3b1054300800000000000000
+      internalID: 235596427114142633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_41
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2768
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe324781b4873fc10800000000000000
+      internalID: 2086143316330816495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_42
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 2768
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199ed0d21965b0c0800000000000000
+      internalID: -4560623518108182244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_43
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2768
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dab59e1247baf00800000000000000
+      internalID: 1129123820584283548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_44
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2768
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6ab8525606a0530800000000000000
+      internalID: 3821973221315159729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0035ba4dc37bc4e40800000000000000
+      internalID: 5642085905082307328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_46
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2448
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b9836e56e895c30800000000000000
+      internalID: 4348663483508235100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_47
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 2448
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032e4b520cdab7930800000000000000
+      internalID: 4142095323075240496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_48
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2448
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffa4ddd79ea8d520800000000000000
+      internalID: 2727121541657833465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_49
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2448
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10987da243b2a4c0800000000000000
+      internalID: -4277659597088976868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2128
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35f6ee1ec78d4440800000000000000
+      internalID: 4921739287137285436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_51
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2128
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd05811e555dcc860800000000000000
+      internalID: 7551645240018882783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_52
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 2128
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e734cd3ac87447d0800000000000000
+      internalID: -2935088247123724316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_53
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2128
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d664fa5bcecd590800000000000000
+      internalID: -7647977802108080793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_54
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2128
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce59279e96cfb2b0800000000000000
+      internalID: -5566512229963440441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04633f4aa39462d70800000000000000
+      internalID: 9017975820080330304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_56
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1808
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b02c2580737ad380800000000000000
+      internalID: -8945710782710275919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_57
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1808
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01917af6c68773400800000000000000
+      internalID: 303843906995820816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_58
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1808
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf6b511ec203f650800000000000000
+      internalID: 6265354590680215490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_59
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1808
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ab4611b329db330800000000000000
+      internalID: 3728296848925178506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6a82a3ba0fa2050800000000000000
+      internalID: 5776694090261899000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_61
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1488
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dc5e399a35479f0800000000000000
+      internalID: -471660073171170016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_62
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1488
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aeaa701aa4af4f0800000000000000
+      internalID: -794240328798639505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_63
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1488
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d974c4169c9a9730800000000000000
+      internalID: 4006686986906925529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_64
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1488
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e41cb70d30ce2750800000000000000
+      internalID: 6282169898583725289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781bf829774fd60f0800000000000000
+      internalID: -1121971937748209273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_66
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1168
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54fec0d3ae09ff80800000000000000
+      internalID: -8072404760339221414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_67
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1168
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2427a6c029c70e860800000000000000
+      internalID: 7557177141443064386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_68
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1168
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2fb215d95b85b30800000000000000
+      internalID: 4276367533464613593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_69
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1168
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0bfdb1ed01d2900800000000000000
+      internalID: 661203266429759662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3284673fb5bc3f0800000000000000
+      internalID: -879508201001180201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_71
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 848
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e1b0caee6232b60800000000000000
+      internalID: 7720056992773643934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_72
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 848
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab46d927fa438d00800000000000000
+      internalID: 973704369861446561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_73
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 848
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc4275888d9d850800000000000000
+      internalID: 6402386425373051770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_74
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 848
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c138c21ac22df4590800000000000000
+      internalID: -7687694949773704420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3804a26683ac3ae0800000000000000
+      internalID: -1568198772655912899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_76
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 528
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccf8d3400ed11eb0800000000000000
+      internalID: -4750772039179502389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_77
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 528
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a118bbbc999cf8b80800000000000000
+      internalID: -8390265918382702310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_78
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 528
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a600c211593788db0800000000000000
+      internalID: -4789451119633104790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_79
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 528
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc4389247e10700800000000000000
+      internalID: 504938906449661865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5ea6077dbf8c3b0800000000000000
+      internalID: -5491862842855725652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_81
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 208
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99fa46bc993a0a20800000000000000
+      internalID: 3029297044596128158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_82
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 208
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a682f3675fdc7830800000000000000
+      internalID: 4070373729668073128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_83
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 208
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201b720f96dc6d9b0800000000000000
+      internalID: -5055627676792409854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hackedlogosheet_84
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 208
+        width: 615
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3e92ffe6c133310800000000000000
+      internalID: 1383480773585789939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

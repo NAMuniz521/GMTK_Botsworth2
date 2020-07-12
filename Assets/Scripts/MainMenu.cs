@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class DeathZone : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -10,13 +11,14 @@ public class DeathZone : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    public void OnStartGame()
     {
-        CharacterController control = other.gameObject.GetComponent<CharacterController>();
-        if(control != null)
-        {
-            control.Died();
-        }
+        SceneManager.LoadScene(1);
+    }
+
+    public void OnQuitGame()
+    {
+        Application.Quit();
     }
 
     // Update is called once per frame
