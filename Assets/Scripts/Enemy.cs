@@ -98,7 +98,6 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-        // TODO: do any death effects or sound effects here
         enemyAudio.clip = AudioManager.singleton.pop;
         enemyAudio.Play();
         Destroy(gameObject);
