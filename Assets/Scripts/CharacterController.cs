@@ -17,7 +17,7 @@ public class CharacterController : MonoBehaviour
     [Header("Player Stats")]
     [Range(0,1)]
     public float speed;
-    [Range(0, 20)]
+    [Range(0, 50)]
     public float jumpForce;
     [Range(0, 200)]
     public float maxEnergy;
