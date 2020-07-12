@@ -66,7 +66,7 @@ public class Enemy : MonoBehaviour
 
     public void Shoot()
     {
-        Debug.Log("pew pew");
+        //Debug.Log("pew pew");
         //RaycastHit2D hitInfo = Physics2D.Raycast(shootPoint.position, -1 * shootPoint.right);
 
         GameObject projectile = Instantiate(bullet);

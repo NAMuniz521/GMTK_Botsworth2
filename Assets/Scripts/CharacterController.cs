@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] Animator playerAnim; //populated in start()
     [SerializeField] SpriteRenderer playerRenderer; //populated in start()
     [SerializeField] GameObject shield;
+    public GameObject spawnPoint;
 
     [Header("Input")]
     [SerializeField] PlayerInputAction inputActions;
@@ -31,7 +33,8 @@ public class CharacterController : MonoBehaviour
     private Vector2 moveInput;
     private bool mouseClicked;
     [HideInInspector] public float energy;
-    [HideInInspector] public bool isDead;
+    [HideInInspector] public bool isDead = false;
+    [HideInInspector] public bool isShieldActive = false;
 
 
 
@@ -66,8 +69,11 @@ public class CharacterController : MonoBehaviour
         }
 
         Vector3 moveDir = new Vector3(moveInput.x * speed, 0, 0);
-        playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x));
-        playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f);
+        playerAnim.SetFloat("Speed", Mathf.Abs(moveInput.x)); 
+        if (!isDead)
+        {
+            playerTransform.position += Vector3.Lerp(Vector3.zero, moveDir, Time.deltaTime * 10f); 
+        }
         
     }
 
@@ -75,17 +81,19 @@ public class CharacterController : MonoBehaviour
     {
         if(energy > 0)
         {
-            Debug.Log("Shield Active");
+            //Debug.Log("Shield Active");
             shield.SetActive(true);
             StartCoroutine(ShieldDecay());
+            isShieldActive = true;
         }
     }
 
     public void OnMouseReleased()
     {
-        Debug.Log("Shield Deactive");
+        //Debug.Log("Shield Deactive");
         shield.SetActive(false);
         StopCoroutine(ShieldDecay());
+        isShieldActive = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -147,6 +155,13 @@ public class CharacterController : MonoBehaviour
         isDead = true;
         playerAnim.SetBool("Dead", true);
         StopAllCoroutines();
+        StartCoroutine(Respawn());
+    }
+
+    IEnumerator Respawn()
+    {
+        yield return new WaitForSeconds(0.3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public IEnumerator ShieldDecay()
@@ -160,6 +175,7 @@ public class CharacterController : MonoBehaviour
             else
             {
                 shield.SetActive(false);
+                isShieldActive = false;
                 StopCoroutine(ShieldDecay());
             }
 

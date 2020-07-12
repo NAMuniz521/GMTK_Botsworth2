@@ -21,13 +21,23 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("Trigger enter");
         if (collision.GetComponent<CharacterController>() != null)
         {
             CharacterController player = collision.GetComponent<CharacterController>();
-
+            if (player.isShieldActive)
+            {
+                rb.velocity = -1 * rb.velocity;
+                return;
+            }
+            else
+            {
+                player.Died();
+            }
         }
         else if (collision.GetComponent<Enemy>() != null)
         {
+            Debug.Log("Hit Enemy");
             Enemy enemy = collision.GetComponent<Enemy>();
             enemy.Die();
         }
